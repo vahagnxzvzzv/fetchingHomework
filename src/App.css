@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.PostsLink {
   color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transform: translate(60%, 20px);
+  display: flex;
+  width: 35px;
+  transition: 0.3s;
+}
+.PostsLink:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+
+.CommentsLink {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transform: translate(200%, -20px);
+  display: flex;
+  width: 75px;
+  transition: 0.3s;
+}
+.CommentsLink:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AlbumsLink {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transform: translate(500%, -60px);
+  display: flex;
+  width: 50px;
+  transition: 0.3s;
+}
+.AlbumsLink:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
 }
